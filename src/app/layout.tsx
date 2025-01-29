@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html  className={rubik.variable} lang="pt-br">
-      <body className="bg-zinc-800 text-white antialiased">{children}</body>
+    <html className={rubik.variable} lang="pt-br">
+      <body className=" bg-zinc-800 text-white antialiased " >{children}</body>
     </html>
   );
 }
