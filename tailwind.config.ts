@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        navigator: 'rgba(255, 255, 255, 0.1)'
       },
     },
   },
