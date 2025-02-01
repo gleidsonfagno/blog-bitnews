@@ -14,12 +14,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html className={rubik.variable} lang="pt-br">
-      <body className=" bg-zinc-800 text-white antialiased " >{children}</body>
+      <body className=" bg-zinc-950 text-white antialiased">{children}</body>
     </html>
   );
 }

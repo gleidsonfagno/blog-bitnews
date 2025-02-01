@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Navbar() {
   return (
     <nav className="border-b bg-navigator">
-      <div className="p-8 flex flex-row justify-between items-center max-w-6xl mx-auto">
+      <div className="py-8 flex flex-row justify-between items-center max-w-6xl mx-auto">
         <button className="text-yellow-400 text-xl font-bold">BTINEWS</button>
 
         <ul
